@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DEAL</string>
+    <string name="b_1rger_off1">The Family Combo offer you cant refuse! Dont miss out on this great deal, priced at Rs, 2,600/- (Rs. 650/- per person)
+- 4x Spicy Chicken Burgers + 4x Thick Cut Fries + 4x Drinks
+OR
+-4x Grilled Chicken Rice + 4x Thick Cut Fries + 4 Drinks
+(Save Rs. 2,200)</string>
+
+    <string name="done">Done</string>
+    <string name="pad">Post a deal</string>
+    <string name="ett">Enter Title</string>
+    <string name="d">Description</string>
+    <string name="add">Additional details</string>
+    <string name="ai">Add Images</string>
+    <string name="ad">Enter Discount</string>
+    <string name="pwd">Price with discount</string>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signuppagebackground"
+    tools:context=".SignUpPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signuppagebackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/linear_inner_space"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:elevation="10dp"
+                        android:paddingStart="25dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="25dp"
+                        android:paddingBottom="8dp"
+                        android:text="Create Account"
+                        android:textColor="@color/darkblue"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextText4"
+                        android:layout_width="165dp"
+                        android:layout_height="55dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/edit_text_background"
+                        android:elevation="10dp"
+                        android:ems="10"
+                        android:hint="First Name"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/editTextTextRe"
+                        android:layout_width="165dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/edit_text_background"
+                        android:elevation="10dp"
+                        android:ems="10"
+                        android:hint="Last Name"
+                        android:inputType="text" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editTextText6"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/edit_text_background"
+                    android:elevation="10dp"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editTextText"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/edit_text_background"
+                    android:elevation="10dp"
+                    android:ems="10"
+                    android:hint="User Name"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editTextText2"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/edit_text_background"
+                    android:elevation="10dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/editTextTextre"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/edit_text_background"
+                    android:elevation="10dp"
+                    android:ems="10"
+                    android:hint="Re-Enter Password"
+                    android:inputType="textPassword" />
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:elevation="10dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        style="bold"
+                        android:layout_width="130dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/signup_button"
+                        android:text="Sign up"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="250dp"
+                    android:layout_height="67dp"
+                    app:srcCompat="@drawable/socialmedia" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account ?"
+                    android:textColor="@color/darkblue" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

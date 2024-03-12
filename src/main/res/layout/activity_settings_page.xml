@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_background"
+    tools:context=".Settings_page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:background="@drawable/back_button_background"
+                app:srcCompat="@drawable/back" />
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Done" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="Settings" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:divider="@drawable/linear_inner_space"
+            android:showDividers="middle"
+            android:layout_marginTop="44dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageViewd24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/general_setting_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textdView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="General" />
+
+                        <TextView
+                            android:id="@+id/tedxtView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="default" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imagseView25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/privacysetting_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Privacy" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="encrypted" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageVieww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/notification_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViwew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Notification" />
+
+                        <TextView
+                            android:id="@+id/textViwew24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="all enabled" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageVeiew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imsageVieww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/screen_time_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVsiwew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Screen time" />
+
+                        <TextView
+                            android:id="@+id/textViwesw24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="normal" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageVeisew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imsagedVieww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/message_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tfextVsiwew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Messages" />
+
+                        <TextView
+                            android:id="@+id/textViwecsw24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="no message" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageVeisdew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imsagedVideww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/accesible_setting_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVsiwfew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Accessibility" />
+
+                        <TextView
+                            android:id="@+id/textViweswd24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="gadgets" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageVeissew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imsageViedww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/customer_set_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVcsiwew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Customer care" />
+
+                        <TextView
+                            android:id="@+id/textVidwesw24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="23k service" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageVeidsew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/lightash"
+                app:cardCornerRadius="15dp"
+                android:layout_height="60dp" >
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imsagedViedww24"
+                        android:layout_width="60dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/logout_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVssiwew23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/red"
+                            android:text="Log Out" />
+
+                        <TextView
+                            android:id="@+id/textViweesw24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="offline" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imasgeVeisew25"
+                        android:layout_width="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/arrow" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
